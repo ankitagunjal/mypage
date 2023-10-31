@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+    <style>
+        /* Style the display */
+        .body{
+
+     width: 260px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid hsl(209, 43%, 56%);
+    border-radius: 5px;
+    background-color: rgb(0, 136, 255);
+
+        }
+        #display {
+            width: 93%;
+            height: 40px;
+            font-size: 24px;
+            text-align: right;
+            margin-bottom: 10px;
+            padding: 5px;
+            background: #bfb2b2;
+            border-color: rgb(98, 98, 242);
+        }
+
+        /* Style the buttons */
+        button {
+            width: 50px;
+            height: 50px;
+            font-size: 20px;
+            margin: 6px;
+            cursor: pointer;
+            border: 1px solid rgb(47, 255, 0);
+
+        }
+
+        /* Style specific buttons */
+        button.C {
+            /* background-color: #4d17b8; */
+            color: #1e0909;
+        }
+
+        button.equal {
+            background-color: #45bae1;
+            color: #282222;
+        }
+
+        /* Add hover effect to buttons */
+        button:hover {
+            background-color: #f0f0f0;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+   </body>
+    <input type="text" id="display" readonly>
+    <br>
+    <button class="number">1</button>
+    <button class="number">2</button>
+    <button class="number">3</button>
+    <button class="operator">+</button>
+    <br>
+    <button class="number">4</button>
+    <button class="number">5</button>
+    <button class="number">6</button>
+    <button class="operator">-</button>
+    <br>
+    <button class="number">7</button>
+    <button class="number">8</button>
+    <button class="number">9</button>
+    <button class="operator">*</button>
+    <br>
+    <button class="number">0</button>
+    <button class="clear C">C</button>
+    <button class="equal">=</button>
+    <button class="operator">/</button>
+    <script src="calcy.js"></script>
+</div>
+ <script src="script.js"></script>
+</body>
+</html>
